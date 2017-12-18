@@ -4,7 +4,7 @@
 PKG             := boost
 $(PKG)_IGNORE   :=
 $(PKG)_VERSION  := 1.53.0
-$(PKG)_CHECKSUM := e6dd1b62ceed0a51add3dda6f3fc3ce0f636a7f3
+$(PKG)_CHECKSUM := f88a041b01882b0c9c5c05b39603ec8383fb881f772f6f9e6e6fd0e0cddb9196
 $(PKG)_SUBDIR   := boost_$(subst .,_,$($(PKG)_VERSION))
 $(PKG)_FILE     := boost_$(subst .,_,$($(PKG)_VERSION)).tar.bz2
 # https://sourceforge.net/projects/boost/files/boost/1.53.0/boost_1_53_0.tar.bz2
