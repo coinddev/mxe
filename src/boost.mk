@@ -8,7 +8,7 @@ $(PKG)_CHECKSUM := f88a041b01882b0c9c5c05b39603ec8383fb881f772f6f9e6e6fd0e0cddb9
 $(PKG)_SUBDIR   := boost_$(subst .,_,$($(PKG)_VERSION))
 $(PKG)_FILE     := boost_$(subst .,_,$($(PKG)_VERSION)).tar.bz2
 # https://sourceforge.net/projects/boost/files/boost/1.53.0/boost_1_53_0.tar.bz2
-$(PKG)_URL      := http://sourceforge.net/project/boost/files/boost/$($(PKG)_VERSION)/$($(PKG)_FILE)
+$(PKG)_URL      := http://$(SOURCEFORGE_MIRROR)/project/boost/boost/$($(PKG)_VERSION)/$($(PKG)_FILE)
 $(PKG)_DEPS     := gcc zlib bzip2 expat
 
 define $(PKG)_UPDATE
